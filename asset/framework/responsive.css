@@ -1,0 +1,39 @@
+@media screen and (max-width: 800px) {
+  .container .header-container .Logo {
+    font-size: 20px;
+  }
+  .login-signup-container {
+    width: 200%;
+    padding: 0;
+  }
+  .login-signup-field {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .container .header-container .Logo {
+    font-size: 22px;
+  }
+  .login-signup-container {
+    width: 80%;
+  }
+  .login-signup-field {
+    width: 90%;
+  }
+}
+
+@media screen and (max-height: 500px) {
+  .login-signup-container {
+    height: 65%;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    padding: 0;
+  }
+  .login-signup-field {
+    display: flex;
+  }
+  .input-field{
+  }
+}
